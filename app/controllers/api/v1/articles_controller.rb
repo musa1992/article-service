@@ -51,7 +51,7 @@ module Api
     
         # Only allow a list of trusted parameters through.
         def article_params
-          params.require(:article).permit(:title, :body)
+          params.require(:article).permit(:title, :body, :author_id)
         end
     end
   end
