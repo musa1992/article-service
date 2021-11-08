@@ -10,6 +10,6 @@
     Article.create({
         title: Faker::Book.title,
         body: Faker::Lorem.sentence,
-        author_id: i +=1
+        author_id: i 
     })
 end
